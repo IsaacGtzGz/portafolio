@@ -150,16 +150,26 @@ export const projects = [
             en: 'Full Stack Developer',
         },
         summary: {
-            es: 'Módulo de gestión de sucursales para SICEFA con CRUD completo e integración de geolocalización.',
-            en: 'Branch management module for SICEFA with full CRUD and geolocation integration.',
+            es: 'Desarrollo del módulo de sucursales de SICEFA con captura, edición, consulta y geolocalización integrada.',
+            en: 'Development of the SICEFA branch module with capture, editing, querying, and integrated geolocation.',
         },
         context: {
-            es: 'Desarrollado para registrar y visualizar farmacias de forma interactiva, mejorando trazabilidad y administración operativa.',
-            en: 'Developed to register and visualize pharmacies interactively, improving traceability and operational management.',
+            es: 'Desarrollo del módulo de sucursales de SICEFA, enfocado en la captura, edición y consulta de registros, con integración de mapas para geolocalización de sucursales y soporte documental para la base de datos del proyecto.',
+            en: 'Development of the SICEFA branch module, focused on capturing, editing, and querying records, with map integration for branch geolocation and documentation support for the project database.',
         },
         architecture: {
-            es: ['Cliente-servidor', 'CRUD modular', 'Integración de mapas'],
-            en: ['Client-server', 'Modular CRUD', 'Maps integration'],
+            es: [
+                'Aplicación web modular.',
+                'Frontend basado en HTML, CSS y JavaScript.',
+                'Integración de mapas y manejo de datos geográficos.',
+                'Persistencia y documentación mediante archivos SQL y modelo ER.',
+            ],
+            en: [
+                'Modular web application.',
+                'Frontend based on HTML, CSS, and JavaScript.',
+                'Maps integration and geographic data handling.',
+                'Persistence and documentation through SQL files and ER modeling.',
+            ],
         },
         challenges: {
             es: [
@@ -173,19 +183,23 @@ export const projects = [
                 'Maintain data consistency to support module scalability.',
             ],
         },
-        stack: ['JavaScript', 'Node.js', 'MySQL', 'Here Maps API'],
+        stack: ['HTML', 'CSS', 'JavaScript', 'SQL', 'MySQL', 'Here Maps API', 'Modelado de base de datos'],
         links: {
             repo: 'https://github.com/IsaacGtzGz/sicefa-sucursales',
             demo: '',
         },
         gallery: {
             es: [
-                'Panel administrativo para control de sucursales.',
-                'Vista de ubicaciones con integración de mapas.',
+                'CRUD de sucursales.',
+                'Visualización de ubicaciones con integración de Here Maps API.',
+                'Captura de domicilio, colonia, ciudad, CP, teléfono y coordenadas.',
+                'Navegación modular entre vistas del sistema.',
             ],
             en: [
-                'Administrative dashboard for branch control.',
-                'Location view with maps integration.',
+                'Branch CRUD operations.',
+                'Location visualization with Here Maps API integration.',
+                'Capture of address, neighborhood, city, ZIP code, phone number, and coordinates.',
+                'Modular navigation between system views.',
             ],
         },
     },
