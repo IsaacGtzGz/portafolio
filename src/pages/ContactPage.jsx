@@ -88,7 +88,7 @@ export function ContactPage({ lang }) {
                     </a>
                 ))}
 
-                <a className="button primary" href="/cv-isaac-gutierrez.pdf" target="_blank" rel="noreferrer">
+                <a className="button primary" href="/cv-isaac-gutierrez-gomez.pdf" target="_blank" rel="noreferrer">
                     {t.cv}
                 </a>
             </div>
